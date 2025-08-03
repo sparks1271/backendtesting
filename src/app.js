@@ -13,6 +13,12 @@ const app = express();
 
 app.use(express.json()); // Middleware for JSON parsing
 
+// Health check route
+
+app.get('/', (req, res) => {
+  res.send('API is running successfully!');
+});
+
 app.use('/', userRoutes); // Mount all user routes
 
 app.use(errorHandler); // Global error handling
