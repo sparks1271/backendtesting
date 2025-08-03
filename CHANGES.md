@@ -66,10 +66,19 @@ Major Issues Identified in Legacy Code
 
     2.Added Jest + Supertest for basic endpoint testing.
 
-Trade‑offs & Assumptions
+5.Trade‑offs & Assumptions
 
     1.SQLite was chosen over PostgreSQL for simplicity (single‑file DB, easier to set up for reviewers).
 
     2.Password reset & authentication tokens were not implemented (not part of requirements).
 
     3.Minimal test coverage (focused only on critical endpoints due to time constraints).
+6.If I Had More Time
+
+    1.Add JWT authentication for secure login sessions.
+    
+    2.Implement pagination for /users.
+    
+    3.Set up CI/CD pipelines for automated testing & deployment.
+    
+    4.Migrate to  MongoDB for production-grade scalability.
