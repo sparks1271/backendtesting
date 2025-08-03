@@ -78,7 +78,5 @@ Major Issues Identified in Legacy Code
     1.Add JWT authentication for secure login sessions.
     
     2.Implement pagination for /users.
-    
-    3.Set up CI/CD pipelines for automated testing & deployment.
-    
-    4.Migrate to  MongoDB for production-grade scalability.
+     
+    3.Migrate to  MongoDB for production-grade scalability.
